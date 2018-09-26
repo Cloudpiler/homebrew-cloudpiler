@@ -7,5 +7,6 @@ class Cloudpiler < Formula
   bottle :unneeded
   def install
   	bin.install Dir["*"]
+  	system "cloudpiler-link.sh"
   end
 end 
