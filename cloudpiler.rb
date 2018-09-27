@@ -12,14 +12,14 @@ class Cloudpiler < Formula
     "
 To enable Cloudpiler:
 ---------------------
-cloudpiler-link.sh
+cloudpiler-link
 
 If the Android SDK is not installed in the default location call:
 ANDROID_HOME=/path/to/Android/sdk cloudpiler-link.sh
 
 To disable Cloudpiler:
 ----------------------
-cloudpiler-unlink.sh
+cloudpiler-unlink
 
 Tip: print again this message:
 brew info cloudpiler"
