@@ -15,7 +15,7 @@ To enable Cloudpiler:
 cloudpiler-link
 
 If the Android SDK is not installed in the default location call:
-ANDROID_HOME=/path/to/Android/sdk cloudpiler-link.sh
+ANDROID_HOME=/path/to/Android/sdk cloudpiler-link
 
 To disable Cloudpiler:
 ----------------------
