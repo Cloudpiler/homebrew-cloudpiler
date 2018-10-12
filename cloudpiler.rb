@@ -6,6 +6,7 @@ class Cloudpiler < Formula
   version "1.0.0"
   bottle :unneeded
   def install
+        prefix.install "cloudpiler-tunnel.key"
         bin.install Dir["*"]
   end
   def caveats
