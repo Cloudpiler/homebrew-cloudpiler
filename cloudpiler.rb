@@ -2,7 +2,7 @@ class Cloudpiler < Formula
   desc "Distributed build speed booster service for Android C/C++"
   homepage "https://www.cloudpiler.com"
   url "https://www.cloudpiler.com/archive/cloudpiler-1.0.0.tar.gz"
-  sha256 "fdfc1976a46323e98257eaf7af92fc82951972871f97e0baf48056d7d8c6f20e"
+  sha256 "fe719aa8effccc1049990b32528a0d5962f15fd65b4f2869447e43af70b089bc"
   version "1.0.0"
   bottle :unneeded
   def install
