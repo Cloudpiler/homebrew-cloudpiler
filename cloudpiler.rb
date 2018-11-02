@@ -1,9 +1,9 @@
 class Cloudpiler < Formula
   desc "Distributed build speed booster service for Android C/C++"
   homepage "https://www.cloudpiler.com"
-  url "https://www.cloudpiler.com/archive/cloudpiler-1.0.0.tar.gz"
-  sha256 "fe719aa8effccc1049990b32528a0d5962f15fd65b4f2869447e43af70b089bc"
-  version "1.0.0"
+  url "https://www.cloudpiler.com/archive/cloudpiler-1.0.1.tar.gz"
+  sha256 "cf167009186c6e97777cac3dfe24a1ec4f5b7d2e2bf0b34f4fa840d743187f7a"
+  version "1.0.1"
   bottle :unneeded
   def install
         prefix.install "cloudpiler-tunnel.key"
