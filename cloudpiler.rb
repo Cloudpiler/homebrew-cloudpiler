@@ -1,14 +1,14 @@
 class Cloudpiler < Formula
   desc "Distributed build speed booster service for Android C/C++"
   homepage "https://www.cloudpiler.com"
-  url "https://www.cloudpiler.com/archive/cloudpiler-1.0.1.tar.gz"
-  sha256 "cf167009186c6e97777cac3dfe24a1ec4f5b7d2e2bf0b34f4fa840d743187f7a"
-  version "1.0.1"
+  url "https://www.cloudpiler.com/archive/cloudpiler-1.0.2.tar.gz"
+  sha256 "a665c2107b9643839056042d0da0c11454fccd0bab92c2a51fb8e0f1be0eb3b0"
+  version "1.0.2"
   bottle :unneeded
   def install
-        prefix.install "cloudpiler-tunnel.key"
-        prefix.install "cloudpiler-known-hosts"
-        bin.install Dir["*"]
+        prefix.install Dir["*"]
+        bin.install_symlink "../cloudpiler-enable"
+        bin.install_symlink "../cloudpiler-disable"
   end
   def caveats
     "
